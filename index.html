@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SonipatAcService.com</title>
+  <title>SonipatAcService.Com</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/95a02bd20d.js" crossorigin="anonymous"></script>
   <style>
@@ -15,15 +15,15 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom right, #1b1b1b, #2d2d2d);
-      color: #fff;
+      background: linear-gradient(to bottom right, #f2f2f2, #eaeaea);
+      color: #222;
       overflow: hidden;
     }
 
     .popup-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.95);
+      background: rgba(255, 255, 255, 0.9);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -43,22 +43,22 @@
     }
 
     .popup-container {
-      background: #111;
+      background: #fff;
       border-radius: 16px;
       padding: 50px 40px;
       max-width: 800px;
       width: 90%;
       text-align: center;
-      box-shadow: 0 0 40px rgba(255, 215, 0, 0.15);
-      border: 1px solid rgba(255, 215, 0, 0.3);
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
+      border: 1px solid #ddd;
     }
 
     .popup-container h2 {
       font-family: 'Playfair Display', serif;
       font-size: 2.2rem;
       margin-bottom: 30px;
-      color: gold;
-      text-shadow: 0 0 12px gold;
+      color: #111;
+      text-shadow: 0 0 5px rgba(218, 165, 32, 0.25);
     }
 
     .card-grid {
@@ -69,7 +69,7 @@
     }
 
     .popup-card {
-      background: #1e1e1e;
+      background: #fff;
       border: 1.5px solid gold;
       border-radius: 14px;
       padding: 30px;
@@ -77,21 +77,21 @@
       height: 200px;
       text-align: center;
       text-decoration: none;
-      color: #fff;
-      box-shadow: 0 0 25px rgba(255, 215, 0, 0.15);
+      color: #333;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .popup-card:hover {
       transform: translateY(-8px) scale(1.04);
-      box-shadow: 0 0 35px gold;
+      box-shadow: 0 0 35px rgba(218, 165, 32, 0.2);
     }
 
     .popup-card i {
       font-size: 50px;
       margin-bottom: 15px;
-      color: gold;
-      text-shadow: 0 0 8px gold;
+      color: goldenrod;
+      text-shadow: 0 0 4px rgba(218, 165, 32, 0.3);
     }
 
     .popup-card span {
@@ -103,14 +103,14 @@
       margin-top: 40px;
       font-size: 1.4rem;
       font-weight: 600;
-      color: gold;
+      color: goldenrod;
       font-family: 'Playfair Display', serif;
       animation: flicker 1.6s infinite alternate;
     }
 
     @keyframes flicker {
-      from { opacity: 1; text-shadow: 0 0 10px gold; }
-      to { opacity: 0.85; text-shadow: 0 0 20px #fff9c4; }
+      from { opacity: 1; text-shadow: 0 0 10px goldenrod; }
+      to { opacity: 0.85; text-shadow: 0 0 20px #f7e4b6; }
     }
 
     @media (max-width: 600px) {
